@@ -31,7 +31,7 @@ I am a first-year PhD candidate at HKUST NLP Group, supervised by Professor Junx
 - Research Intern, Shanghai AI Lab (June 2023–December 2023)
   - Advisor: Prof. Yu Cheng
 
-## Research Skills
+## Research Skills and Interests
 
 - Natural language processing
 - Machine learning

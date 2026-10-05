@@ -1,9 +1,8 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# Junteng Liu's Academic Homepage
 
-![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
+This website is a personal academic homepage for **Junteng Liu**, a first-year PhD candidate at the **HKUST NLP Group** of the Hong Kong University of Science and Technology (HKUST). It was forked from the [Academic Pages GitHub Pages template](https://github.com/academicpages/academicpages.github.io) and customized with Junteng's personal details, academic background, research experience, publications, skills, and contact information.
 
-# Getting Started
+## Getting Started
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Click the "Use this template" button in the top right.
@@ -27,16 +26,21 @@ When you are initially working on your website, it is very useful to be able to 
 1. Clone the repository and made updates as detailed above.
 
 ### Using a different IDE
+
 1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
+
+    \
     On most Linux distributions and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
     ```bash
     sudo apt install ruby-dev ruby-bundler nodejs
     ```
+
     If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
     ```bash
-    sudo apt update && sudo apt upgrade -y
+    sudo apt update \
+    sudo apt upgrade -y
     ```
+
     then try running `sudo apt install ruby-dev ruby-bundler nodejs` again.
 
     On MacOS the commands are:
@@ -45,6 +49,7 @@ When you are initially working on your website, it is very useful to be able to 
     brew install node
     gem install bundler
     ```
+
 1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 
     If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
@@ -52,9 +57,11 @@ When you are initially working on your website, it is very useful to be able to 
     ```bash
     bundle config set --local path 'vendor/bundle'
     ```
+
     then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
 
 1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stopping and restarting Jekyll.
+
     You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
 
 If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
@@ -74,7 +81,7 @@ You should now be able to access the website from `localhost:4000`.
 
 ### Using the DevContainer in VS Code
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development container configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development container configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1-DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
 
 # Maintenance
 
@@ -86,16 +93,17 @@ This repository was forked (then detached) by [Stuart Geiger](https://github.com
 
 If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of the template to your fork as well.
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize, although [rebasing](https://git-scm.com/docs/git-rebase) the changes from this template will work along with manually [cherry picking](https://git-scm.com/docs/git-cherry-pick) the relevant commits. If you are not comfortable with the Git command line, you can save your various `.yml` configuration files and Markdown files, delete the repository, and fork it again. 
+Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize, although [rebasing](https://git-scm.com/docs/git-rebase) the changes from this template will work along with manually [cherry picking](https://git-scm.com/docs/git-cherry-pick) the relevant commits. If you are not comfortable with the Git command line, you can save your various `.yml` configuration files and Markdown files, delete the repository, and fork it again.
 
 ---
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
+<div align="center">
+
+![pages-build-deployment](https://github.com/toolathlon68-arch/LJT-Homepage/actions/workflows/pages/pages-build-deployment/badge.svg)
+[![GitHub contributors](https://img.shields.io/github/contributors/toolathlon68-arch/LJT-Homepage.svg)](https://github.com/toolathlon68-arch/LJT-Homepage/graphs/contributors)
+[![GitHub release](https://img.shields.io/github/v/release/toolathlon68-arch/LJT-Homepage)](https://github.com/toolathlon68-arch/LJT-Homepage/releases/latest)
+[![GitHub license](https://img.shields.io/github/license/toolathlon68-arch/LJT-Homepage?color=blue)](https://github.com/toolathlon68-arch/LJT-Homepage/blob/master/LICENSE)
+
+[![GitHub stars](https://img.shields.io/github/stars/toolathlon68-arch/LJT-Homepage)](https://github.com/toolathlon68-arch/LJT-Homepage)
+[![GitHub forks](https://img.shields.io/github/forks/toolathlon68-arch/LJT-Homepage)](https://github.com/toolathlon68-arch/LJT-Homepage/fork)
 </div>

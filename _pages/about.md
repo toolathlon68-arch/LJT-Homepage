@@ -34,7 +34,7 @@ My research interests include LLM Reasoning and Reinforcement Learning, Hallucin
 ## Publications
 
 - SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond. Junteng Liu (first author), Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. Arxiv, 2025
-- On the Perception Bottleneck of VLMs for Chart Understanding. Junteng Liu (first author), Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. (Arxiv), 2025
+- On the Perception Bottleneck of VLMs for Chart Understanding. Junteng Liu (first author), Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. Arxiv, 2025
 - On the Universal Truthfulness Hyperplane Inside LLMs. Junteng Liu (first author), Shiqi Chen, Yu Cheng, Junxian He. EMNLP 2024, 2024
 - In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation. Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He. ICML 2024, 2024
 - C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models. Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He. NeurIPS 2023, 2023
